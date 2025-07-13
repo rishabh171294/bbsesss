@@ -1,39 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact Us - Bajrangbali Sansthan</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <div class="container">
-      <h1>Bajrangbali Shaikshnik Evam Samajik Seva Sansthan</h1>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="contact.html" class="active">Contact Us</a>
-      </nav>
-    </div>
-  </header>
-  <main class="container">
-    <section>
-      <h2>Contact Us</h2>
-      <form id="contactForm">
-        <label for="name">Name</label><br />
-        <input type="text" id="name" name="name" required /><br />
-        <label for="email">Email</label><br />
-        <input type="email" id="email" name="email" required /><br />
-        <label for="message">Message</label><br />
-        <textarea id="message" name="message" required></textarea><br />
-        <button type="submit">Send</button>
-      </form>
-    </section>
-  </main>
-  <footer>
-    <div class="container">&copy; 2025 Bajrangbali Sansthan</div>
-  </footer>
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Bajrangbali Sansthan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Bajrangbali Shaikshnik Evam Samajik Seva Sansthan</h1>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="contact.html" class="active">Contact Us</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <section class="contact-section">
+        <h2 class="contact-title">Get in Touch</h2>
+
+        <div class="card-container">
+          <div class="contact-card">
+            <div class="contact-icon">📞</div>
+            <div class="contact-label">Call Us</div>
+            <div class="contact-info">+91 98353 30106</div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">📧</div>
+            <div class="contact-label">Email Us</div>
+            <a href="mailto:contact@yourngo.org"
+              ><div class="contact-info">admin@bbsesss.org.in</div></a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">&copy; 2025 Bajrangbali Sansthan</div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
